@@ -3,7 +3,7 @@
 
 	<remote
 		name="github"
-		fetch="https://github.com/shapcho/linux_aliases.git"
+		fetch="https://github.com/shapcho"
 	/>
 	 
 	<default 
