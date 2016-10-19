@@ -7,13 +7,13 @@
 	/>
 	 
 	<default 
-		revision="master"
+		revision="refs/heads/master"
 		remote="github"
 	       	sync-j="4"
 	/>
 	
 	
-	<project name="github" remote="https://github.com/shapcho/linux_aliases.git" path="linux_aliases" />
+	<project name="linux_aliases" remote="github" path="linux_aliases" />
 
 </manifest>
 
