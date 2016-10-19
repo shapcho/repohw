@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<remote
+	name="linux aliases"
+	fetch="https://github.com/shapcho/linux_aliases.git"
+/>
+ 
+<default 
+	revision="refs/heads/master"
+	remote="linux aliases"
+       	sync-j="4"
+/>
+
+
+<project name="linux aliases" remote="https://github.com/shapcho/linux_aliases.git" path="linux_aliases" />
+
+
