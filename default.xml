@@ -7,7 +7,7 @@
 	/>
 	 
 	<default 
-		revision="refs/heads/master"
+		revision="master"
 		remote="github"
 	       	sync-j="4"
 	/>
