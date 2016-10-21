@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote
-		name="github"
-		fetch="https://github.com"
-	/>
-	 
-	<default 
-		revision="refs/heads/master"
-		remote="github"
-	       	sync-j="4"
-	/>
-	
 
-	<!-- My aliases  -->
-	<project name="shapcho/linux_aliases" remote="github" path="linux_aliases" />
-	<project name="shapcho/local_aliases" remote="github" path="local_aliases" />
-
-	<!-- Vim plugins  -->
-	<project name="vim-scripts/nerdtree"    remote="github" path=".vim/bundle/nerdtree"    />
-	<project name="will133/vim-dirdiff"     remote="github" path=".vim/bundle/vim-dirdiff"     />
-	<project name="VundleVim/Vundle.vim"    remote="github" path=".vim/bundle/Vundle.vim"    />
-	<project name="Valloric/YouCompleteMe"  remote="github" path=".vim/bundle/YouCompleteMe"  />
-	<project name="vim-scripts/taglist.vim" remote="github" path=".vim/bundle/taglist.vim" />
-	<project name="tpope/vim-surround"      remote="github" path=".vim/bundle/vim-surround"      />
-	<project name="rdnetto/YCM-Generator"   remote="github" path=".vim/bundle/YCM-Generator"   />
+        <!-- ************ REMOTES ************ -->
+        <!-- My aliases  -->
+        <remote name="github_shapcho" fetch="https://github.com/shapcho" />
+        
+        <!-- Vim plugins  -->
+        <remote name="github_scrooloose" fetch="https://github.com/scrooloose" />
+        <remote name="github_vimscripts" fetch="https://github.com/vim-scripts" />
+        <remote name="github_vundle" fetch="https://github.com/VundleVim" />
+        <remote name="github_valloric" fetch="https://github.com/Valloric" />
+        <remote name="github_tpope" fetch="https://github.com/tpope" />
+        <remote name="github_rdnetto" fetch="https://github.com/rdnetto" />
+        <remote name="github_will133" fetch="https://github.com/will133" />
+                                             
+        <!-- Tools  -->
+        <remote name="github_mxe"     fetch="https://github.com/mxe" />
 
 
-	<!-- Tools  -->
-	<project name="mxe"   remote="github" path="tools"   />
+        <!-- ************ Default ************ -->
+        <default 
+                revision="refs/heads/master"
+                remote="github_shapcho"
+                sync-j="4"
+        />
+
+
+        <!-- ************ PROJECTS ************ -->
+        <!-- My aliases  -->
+        <project name="linux_aliases" remote="github_shapcho" path="kdefs/linux_aliases" />
+        <project name="local_aliases" remote="github_shapcho" path="kdefs/local_aliases" />
+
+        <!-- Vim plugins  -->
+        <project name="nerdtree"       remote="github_scrooloose" path="vim/bundle/nerdtree" />
+        <project name="taglist.vim"    remote="github_vimscripts" path="vim/bundle/taglist.vim" />
+        <project name="Vundle.vim"     remote="github_vundle"     path="vim/bundle/Vundle.vim" />
+        <project name="YouCompleteMe"  remote="github_valloric"   path="vim/bundle/YouCompleteMe" />
+        <project name="vim-surround"   remote="github_tpope"      path="vim/bundle/vim-surround" />
+        <project name="YCM-Generator"  remote="github_rdnetto"    path="vim/bundle/YCM-Generator" revision="stable" />
+        <project name="vim-dirdiff"    remote="github_will133"    path="vim/bundle/vim-dirdiff" />
+
+        <!-- Tools  -->
+        <project name="mxe" remote="github_mxe" path="tools" />
 
 </manifest>
-
 
