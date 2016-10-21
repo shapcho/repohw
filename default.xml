@@ -12,8 +12,23 @@
 	       	sync-j="4"
 	/>
 	
-	
-	<project name="linux_aliases" remote="github" path="linux_aliases2" />
+
+	<!-- My aliases  -->
+	<project name="shapcho/linux_aliases" remote="github" path="linux_aliases" />
+	<project name="shapcho/local_aliases" remote="github" path="local_aliases" />
+
+	<!-- Vim plugins  -->
+	<project name="vim-scripts/nerdtree"    remote="github" path=".vim/bundle/nerdtree"    />
+	<project name="will133/vim-dirdiff"     remote="github" path=".vim/bundle/vim-dirdiff"     />
+	<project name="VundleVim/Vundle.vim"    remote="github" path=".vim/bundle/Vundle.vim"    />
+	<project name="Valloric/YouCompleteMe"  remote="github" path=".vim/bundle/YouCompleteMe"  />
+	<project name="vim-scripts/taglist.vim" remote="github" path=".vim/bundle/taglist.vim" />
+	<project name="tpope/vim-surround"      remote="github" path=".vim/bundle/vim-surround"      />
+	<project name="rdnetto/YCM-Generator"   remote="github" path=".vim/bundle/YCM-Generator"   />
+
+
+	<!-- Tools  -->
+	<project name="mxe"   remote="github" path="tools"   />
 
 </manifest>
 
