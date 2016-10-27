@@ -4,7 +4,7 @@
 
         <!-- ************ REMOTES ************ -->
         <!-- My aliases  -->
-        <remote name="github_shapcho" fetch="https://github.com/shapcho" />
+        <remote name="github_shapcho" fetch="https://review.gerrithub.io/shapcho" />
         
         <!-- Vim plugins  -->
         <remote name="github_scrooloose" fetch="https://github.com/scrooloose" />
