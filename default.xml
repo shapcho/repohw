@@ -14,6 +14,7 @@
         <remote name="github_tpope" fetch="https://github.com/tpope" />
         <remote name="github_rdnetto" fetch="https://github.com/rdnetto" />
         <remote name="github_will133" fetch="https://github.com/will133" />
+	<remote name="github_mhinz" fetch="https://github.com/mhinz" />
                                              
         <!-- Tools  -->
         <remote name="github_mxe"     fetch="https://github.com/mxe" />
@@ -40,6 +41,7 @@
         <project name="vim-surround"   remote="github_tpope"      path="vim/bundle/vim-surround" />
         <project name="YCM-Generator"  remote="github_rdnetto"    path="vim/bundle/YCM-Generator" revision="stable" />
         <project name="vim-dirdiff"    remote="github_will133"    path="vim/bundle/vim-dirdiff" />
+        <project name="vim-startify"   remote="github_mhinz"      path="vim/bundle/vim-startify" />
 
         <!-- Tools  -->
         <project name="mxe" remote="github_mxe" path="tools" />
